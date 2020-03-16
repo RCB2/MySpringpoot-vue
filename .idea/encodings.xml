@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeMarker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Web4.11" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebAOP4.12" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebCOSR46" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebFastjsonJSON" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebGson" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebJTZY421" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebJZDY422" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebSC43" charset="UTF-8" />
+  </component>
+</project>

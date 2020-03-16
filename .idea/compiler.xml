@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="FreeMarker" />
+        <module name="Web" />
+        <module name="Web4.11" />
+        <module name="WebAOP412" />
+        <module name="WebCOSR46" />
+        <module name="WebFastjsonJSON" />
+        <module name="WebGson" />
+        <module name="WebJTZY421" />
+        <module name="WebJZDY422" />
+        <module name="WebSC43" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JTZiYanFWen" target="7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="FreeMarker" options="-parameters" />
+      <module name="JTZiYanFWen" options="-parameters" />
+      <module name="My" options="" />
+      <module name="Web" options="-parameters" />
+      <module name="Web4.11" options="-parameters" />
+      <module name="WebAOP412" options="-parameters" />
+      <module name="WebCOSR46" options="-parameters" />
+      <module name="WebFastjsonJSON" options="-parameters" />
+      <module name="WebGson" options="-parameters" />
+      <module name="WebJTZY421" options="-parameters" />
+      <module name="WebJZDY422" options="-parameters" />
+      <module name="WebSC43" options="-parameters" />
+    </option>
+  </component>
+</project>

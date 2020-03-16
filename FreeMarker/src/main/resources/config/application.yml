@@ -1,0 +1,20 @@
+server:
+  port: 8089
+#是否开启缓存，开发时可设置为false，默认为true,2、检查模板是否存在，默认true 3、检查模板位置是否存在，默认...
+#4、模板文件编码/5、模板文件位置 6、Content-Type配置 7、模板文件后缀
+spring:
+  freemarker:
+    allow-request-override: false
+    allow-session-override: false
+    cache: false
+    charset: UTF-8
+    check-template-location: true
+    content-type: text/html
+    expose-request-attributes: false
+    expose-session-attributes: false
+    template-loader-path: classpath:/templates/
+
+book:
+  id: 1
+  name: 开场即巅峰1
+  author: 阮春彪

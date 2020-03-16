@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>COST支持</title>
+    <!--ppt书籍添加jquery3.3.1.js并非jquery.min.js-->
+    <script src="./jquery-3.3.1.js"></script>
+</head>
+<body>
+    <div id="contentDiv"></div>
+    <div id="deleteResult"></div>
+    <input type="button" value="提交数据" onclick="getData()"><br>
+    <input type="button" value="删除数据" onclick="deleteData()"><br>
+    <script>
+        // <!-- http://localhost:8080/book/99中99为id,book为类BookController中的@RequestMapping("/book")-->
+        //http://localhost:8080需要与启动时的端口相一致才能访问,但是ppt书籍中，相反，这里的8080端口与启动端口8081不一样，启动端口
+        //与控制类中配置的端口8081一样
+        //这两个ajax的URL可以写为/book/99与/book/访问也不会出问题
+         function deleteData () {
+             $.ajax({
+                 url: 'http://localhost:8080/book/99',
+                 type: 'delete',
+                 success: function (msg) {
+                     $("#deleteResult").html(msg);//返回信息放到该div中展示
+                 }
+             })
+         }
+
+         function getData() {
+             $.ajax({
+                 url: 'http://localhost:8080/book/',
+                 type: 'post',
+                 data: {name: '三国演义'},
+                 success: function (msg) {
+                     $("#contentDiv").html(msg);//返回信息放到该div中展示
+                 }
+             })
+         }
+    </script>
+</body>
+</html>

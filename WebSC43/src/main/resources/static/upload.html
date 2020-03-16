@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>单文件上传</title>
+</head>
+<!--一个简单的文件上传页面，上传接口/upload,注意请求方法post，enctype是...-->
+<body>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="uploadFile" value="选择上传文件">
+        <input type="submit" value="提交单文件上传">
+    </form>
+</body>
+</html>

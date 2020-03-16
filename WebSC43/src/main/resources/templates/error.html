@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>错误页面Thymeleaf</title>
+</head>
+<body>
+
+    <!--/*@thymesVar id="msg" type="templates"*/-->
+    <div th:text="${msg}"></div>
+    我们是Thymeleaf模板页面，应用级报错，异常处理返回页面
+    CustomExceptionHandler类中传回来的，上传文件过大时
+
+</body>
+</html>

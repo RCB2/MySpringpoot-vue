@@ -1,0 +1,20 @@
+server:
+  port: 27
+  servlet:
+    context-path: /book1
+  tomcat:
+    uri-encoding: UTF-8
+book0:
+  user:
+   - name: 站在巅峰
+     password: 123
+     price:
+      -我
+      -me
+      -my
+   - name: 我们
+     password: 123
+     price:
+      -我
+      -me
+      -my
