@@ -16,7 +16,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.2.4.RELEASE</version>
+            <version>2.5.12</version>
             <scope>compile</scope>
         </dependency>
         <!--配置Jetty除了tomcat外，也可以嵌入Jetty，主要去除spring-boot-starter-jetty-web中去除默认tomcat启动项目查看日志-->
